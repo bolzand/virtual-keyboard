@@ -1,0 +1,96 @@
+.wrapper {
+  text-align: center;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+  padding: 10px;
+}
+
+.keyboard {
+  margin: 0 auto;
+  width: 706px;
+}
+
+.row {
+  clear: both;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.key {
+  float: left;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #131313;
+  margin-left: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  transition: border-radius 0.2s;
+}
+
+.key:hover {
+  background: #E3B873;
+}
+
+.key.backspace {
+  width: 100px;
+}
+
+.key.tab {
+  width: 50px;
+}
+
+.key.del {
+  width: 44px;
+}
+
+.key.capslock {
+  width: 100px;
+}
+
+.key.enter {
+  width: 86px;
+}
+
+.key.shift {
+  width: 100px;
+}
+
+.key.shift-right {
+  width: 86px;
+}
+
+.key.space {
+  width: 330px;
+}
+
+.off, .down {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.on > .up {
+  display: none;
+}
+
+.on > .down {
+  display: none;
+}
+
+.off > .up {
+  display: none;
+}
+
+.clicked {
+  background: #E3B873;
+  border-radius: 20px;
+}
